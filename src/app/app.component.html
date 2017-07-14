@@ -1,0 +1,6 @@
+<div class="chart-dash">
+    <bar-chart [data]="barData" [colors]="barColors" [xAxis]="true" [yAxis]="true" [ticks]="5" [tickFormat]="'%'" [yAxisMax]="0" [xGrid]="false" [yGrid]="false" [xGridTicks]="5" [yGridTicks]="5"></bar-chart>
+    <pie-chart [data]="pieData" [colors]="pieColors"></pie-chart>
+    <line-chart [data]="lineData" [colors]="lineColors" [strokeWidth]="1.5" [xAxis]="true" [yAxis]="true" [xGrid]="false" [yGrid]="false" [xGridTicks]="10" [yGridTicks]="10"></line-chart>
+    <nested-pie-chart [data]="nestedPieData" [colors]="pieColors"></nested-pie-chart>
+</div>
